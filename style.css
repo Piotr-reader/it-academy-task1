@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
 }
 .wrapper {
-  background:  #35ECF9;
+  background: #35ecf9;
 }
 .logo_title {
   text-align: center;
@@ -19,11 +19,12 @@ body {
   letter-spacing: 0.6px;
 }
 .section_nav {
-  display: flex;
   padding: 0;
 }
 .nav {
-  background: #F1F935;
+  width: 180px;
+  float: left;
+  background: #f1f935;
 }
 .navbar {
   margin-left: 10px;
@@ -40,7 +41,7 @@ main {
   background-position: right;
 }
 .description {
-  padding: 10px;
+  min-height: 344px;
 }
 .game_title {
   width: 180px;
@@ -65,16 +66,18 @@ main {
   letter-spacing: 1.6px;
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
   .section_nav {
-    display: block;
     text-align: center;
   }
   .game_title {
     width: inherit;
+    margin: 0;
   }
   .nav {
     text-align: center;
+    width: inherit;
+    float: none;
   }
   li {
     list-style-type: none;
