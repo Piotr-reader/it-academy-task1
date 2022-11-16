@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper {
+  background:  #35ECF9;
+}
+.logo_title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 0.6px;
+}
+.section_nav {
+  display: flex;
+  padding: 0;
+}
+.nav {
+  background: #F1F935;
+}
+.navbar {
+  margin-left: 10px;
+  padding: 20px;
+  padding-top: 0;
+}
+li {
+  padding-bottom: 5px;
+}
+main {
+  background-image: url(./ball.jpeg);
+  background-size: 100px;
+  background-repeat: repeat-y;
+  background-position: right;
+}
+.description {
+  padding: 10px;
+}
+.game_title {
+  width: 180px;
+  margin: 10px;
+  padding-top: 20px;
+}
+.section_first {
+  padding: 10px;
+}
+.game_img {
+  float: left;
+  margin: 15px;
+  margin-top: 5px;
+}
+.text {
+  letter-spacing: 0.6px;
+}
+.section_about_description {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+}
+
+@media (max-width: 768px)  {
+  .section_nav {
+    display: block;
+    text-align: center;
+  }
+  .game_title {
+    width: inherit;
+  }
+  .nav {
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+  }
+  .game_img {
+    float: none;
+  }
+}
